@@ -1,0 +1,4 @@
+htdocs/documents/
+htdocs/conf/conf.php
+htdocs/temp/
+*.log
