@@ -113,14 +113,3 @@ INSERT INTO llx_const (name, value, type, visible, entity) VALUES ('PRODUCT_PRIC
 -- Membership
 --
 INSERT INTO llx_const (name, value, type, visible, entity) VALUES ('ADHERENT_LOGIN_NOT_REQUIRED', '1', 'string', 0, __ENTITY__);
-
---
--- LAB Connecta Modules
---
--- INSERT INTO llx_const (name, entity, value, type) VALUES	 ('MAIN_MODULE_NFE', 1, '1', 'string');
--- INSERT INTO llx_const (name, entity, value, type) VALUES	 ('MAIN_MODULE_LABAPP', 1, '1', 'string');
--- INSERT INTO llx_const (name, entity, value, type) VALUES	 ('MAIN_MODULE_NFSE', 1, '1', 'string');
-
-INSERT INTO llx_const (name, value, type, entity) VALUES	 ('MAIN_MODULE_NFE', '1', 'string', __ENTITY__);
-INSERT INTO llx_const (name, value, type, entity) VALUES	 ('MAIN_MODULE_LABAPP', '1', 'string', __ENTITY__);
-INSERT INTO llx_const (name, value, type, entity) VALUES	 ('MAIN_MODULE_NFSE', '1', 'string', __ENTITY__);
